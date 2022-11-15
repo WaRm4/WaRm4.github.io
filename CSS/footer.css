@@ -1,0 +1,22 @@
+:root {
+    --footer-height: 5vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    height: 4vh;
+    width: 4vh;
+    margin: 0 1vw;
+}
+
+a {
+    text-decoration: none;
+}
