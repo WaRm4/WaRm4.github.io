@@ -1,5 +1,5 @@
 :root {
-    --hauteur-menu: 5vh;
+    --menu-height: 5vh;
 }
 
 header {
@@ -14,7 +14,7 @@ nav>ul {
     display: flex;
     text-align: center;
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
-    height: var(--hauteur-menu);
+    height: var(--menu-height);
 }
 
 nav ul {

@@ -1,0 +1,41 @@
+:root {
+    --secondary-color: rgba(10, 29, 39, 0.8);
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: "Courier New", sans-serif;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.download:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fond {
+    background-image: url('https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1');
+
+    height: 85vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 2em;
+}
