@@ -2,6 +2,10 @@
     --secondary-color: rgba(10, 29, 39, 0.8);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
@@ -11,6 +15,7 @@ body {
     font-family: "Courier New", sans-serif;
 }
 
+/***************** Download link *****************/
 .download {
     display: flex;
     justify-content: space-between;
@@ -27,10 +32,13 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.fond {
-    background-image: url('https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1');
+/************************************************/
 
-    height: 85vh;
+/***************** Background and elements *****************/
+.backgroundItem {
+    background-image: url("../Images/background.jpeg");
+
+    height: 95vh;
 
     background-attachment: fixed;
     background-position: center;
@@ -38,4 +46,83 @@ body {
     background-size: cover;
 
     font-size: 2em;
+
+    scroll-margin-top: 5vh;
 }
+
+.lightElem {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 100vh rgba(255, 255, 255, 0.7);
+}
+
+.darkElem {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.7);
+}
+
+/************************************************/
+
+/***************** A Propos Item *****************/
+#aPropos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.photo {
+    height: 40vh;
+    border-radius: 5%;
+    border: 2px solid #FF9F55;
+    aspect-ratio: 1/1;
+    margin-top: 8vh;
+}
+
+.presentationText {
+    width: 50vw;
+    height: fit-content;
+    padding: 4%;
+    border: 2px solid #FF9F55;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    font-weight: bold;
+    overflow: hidden;
+    align-self: flex-end;
+    margin-bottom: 8vh;
+}
+
+/************************************************/
+
+/***************** Parcours Item *****************/
+
+#parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/************************************************/
+
+/***************** Experiences Item *****************/
+
+#experiences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/************************************************/
+
+/***************** Autre Item *****************/
+
+#autre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/************************************************/
