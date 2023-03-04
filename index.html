@@ -48,8 +48,52 @@
     </div>
 
     <div id="experiences" class="backgroundItem lightElem">
-        <h1>Mes Expériences</h1>
+        <div class="experiences firstExp">
+            <h1>Mes Expériences</h1>
+        </div>
+        <div class="experiences otherExps">
+            <h2>Alternant à Michelin, Clermont-Ferrand, France (3ème année en école d'ingénieur)</h2>
+            <h3>Septembre 2022 - Maintenant</h3>
+            <p>Création de tests unitaires afin de contrôler et maîtriser les régles métier de différentes applications.
+            </p>
+            <span>C#, Visual Studio, Windows, MsTest, SonarQube</span>
+        </div>
+        <div class="experiences otherExps">
+            <h2>Stage à Michelin, Clermont-Ferrand, France (2ème année en école d'ingénieur)</h2>
+            <h3>Avril 2022 - Août 2022</h3>
+            <p>Utilisation de PowerShell afin de créer des scripts pour réduire le temps nécessaire pour la préparation
+                et l'installation d'un déploiement d'une application industrielle. Communication en anglais avec des
+                déployeurs Polonais.</p>
+            <span>PowerShell, Windows, Oracle, Azure DevOps, Git, SQL</span>
+        </div>
+        <div class="experiences otherExps">
+            <h2>Stage à Calaosoft, Creuzier-le-Neuf, France</h2>
+            <h3>Mai 2020 - Juillet 2020</h3>
+            <p>Remaniement du modèle de données NoSQL d'une application mobile hybride, de manière à optimiser ses
+                performances et la volumétrie des données stockées.</p>
+            <span>TypeScript, Angular, Apache Cordova, Visual Studio Code, NoSQL, CouchDB, PouchDB, Git</span>
+        </div>
+        <div class="experiences otherExps">
+            <h2>Emploi d'été : Opérateur de maintenance à Safran, Domérat, France</h2>
+            <h3>Avril 2022 - Août 2022</h3>
+            <p>Contrôle et entretien de machines - Production de documents - Dessage d'inventaires.</p>
+        </div>
+
+        <div class="experienceButtons">
+            <button class="leftExperienceButton" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="rightExperienceButton" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        <div class="expBadges">
+            <span class="expBadge" onclick="currentDiv(1)"></span>
+            <span class="expBadge" onclick="currentDiv(2)"></span>
+            <span class="expBadge" onclick="currentDiv(3)"></span>
+            <span class="expBadge" onclick="currentDiv(4)"></span>
+            <span class="expBadge" onclick="currentDiv(5)"></span>
+        </div>
     </div>
+
+    <script src="./JS/experienceSlideshow.js"></script>
 
     <div id="autre" class="backgroundItem darkElem">
         <h1>Autre</h1>
@@ -57,7 +101,7 @@
 
     <footer>
         <div id="contact" class="footer">
-            <p>© 2022 Killian Meunier</p>
+            <p>© 2023 Killian Meunier</p>
             <div class="socials">
                 <a href="https://www.linkedin.com/in/killian-meunier-2bb155199/" target="_blank">
                     <img class="logo" src="https://cdn-icons-png.flaticon.com/512/61/61109.png" />
